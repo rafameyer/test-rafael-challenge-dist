@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script src="stomp.js"></script>
+    <script src="sparkline.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>GFT Test: Dev-Challenge-Dist</h1>
+    <section>
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Current Best Bid</th>
+              <th scope="col">Current Best Ask Price</th>
+              <th scope="col">Best Ask Price Last Changed</th>
+              <th scope="col">Best Bid Last Changed</th>
+              <th scope="col" id="chart">Chart</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <script src="bundle.js"></script>
+  </body>
+</html>
